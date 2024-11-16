@@ -9,6 +9,11 @@ The **Contact Management CRM** is a web application that allows users to manage 
 - Deleting contacts.
 - Updating contact data.
 
+### Backend URL 
+To add in the Frontend , in place of localhost we have to use this:
+```bash
+https://contact-backend-rij0.onrender.com/api/contacts
+```
 The application is built using **React.js** for the frontend, **Node.js (Express)** for the backend, and a **MongoDB** database to store contact information.
 
 
