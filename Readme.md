@@ -20,9 +20,11 @@ The application is built using **React.js** for the frontend, **Node.js (Express
 
 https://github.com/user-attachments/assets/03780d62-71c6-4fb2-a648-8221b649bc54
 
+<img width="959" alt="CRM" src="https://github.com/user-attachments/assets/812d62db-4384-442f-98a6-a630bd1c064b">
 
 
 
+<img width="668" alt="crm1" src="https://github.com/user-attachments/assets/af5036e6-0ede-4424-b977-567967f09947">
 
 
 
