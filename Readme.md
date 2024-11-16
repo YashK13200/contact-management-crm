@@ -10,7 +10,8 @@ The **Contact Management CRM** is a web application that allows users to manage 
 - Updating contact data.
 
 ### Backend URL 
-To add in the Frontend , in place of localhost we have to use this:
+To add in the Frontend , in place of localhost(endpoints) we have to use this:
+(for live purpose)
 ```bash
 https://contact-backend-rij0.onrender.com/api/contacts
 ```
