@@ -7,7 +7,7 @@ The **Contact Management CRM** is a web application that allows users to manage 
 - Viewing contacts in a table with pagination and sorting.
 - Editing existing contact information.
 - Deleting contacts.
-- Searching and filtering contact data.
+- Updating contact data.
 
 The application is built using **React.js** for the frontend, **Node.js (Express)** for the backend, and a **MongoDB** database to store contact information.
 
