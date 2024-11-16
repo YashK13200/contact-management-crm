@@ -1,0 +1,136 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    color: #333;
+    text-align: center;
+}
+
+/* ContactForm Styling */
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.contact-form .MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.contact-form .MuiButton-root {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 8px;
+    text-transform: none;
+}
+
+.contact-form .MuiButton-root:hover {
+    background-color: #303f9f;
+}
+
+/* ContactsTable Styling */
+.contacts-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.contacts-table .MuiTable-root {
+    min-width: 650px;
+}
+
+.contacts-table .MuiTableCell-root {
+    padding: 16px;
+    font-weight: 500;
+}
+
+.contacts-table .MuiTablePagination-root {
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+.contacts-table .MuiTableSortLabel-root {
+    color: #333;
+}
+
+.contacts-table .MuiTableSortLabel-root:hover {
+    color: #3f51b5;
+}
+
+.contacts-table .MuiButton-root {
+    background-color: #ff5722;
+    color: white;
+    margin-right: 10px;
+    text-transform: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.contacts-table .MuiButton-root:hover {
+    background-color: #e64a19;
+}
+
+.contacts-table .MuiDialog-paper {
+    border-radius: 8px;
+}
+
+.contacts-table .MuiDialogActions-root {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Edit Contact Dialog Styling */
+.edit-contact-dialog .MuiTextField-root {
+    margin-bottom: 12px;
+}
+
+.edit-contact-dialog .MuiDialogActions-root .MuiButton-root {
+    text-transform: none;
+    padding: 8px 16px;
+}
+
+.edit-contact-dialog .MuiDialogActions-root .MuiButton-root:first-of-type {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.edit-contact-dialog .MuiDialogActions-root .MuiButton-root:first-of-type:hover {
+    background-color: #303f9f;
+}
+
+.edit-contact-dialog .MuiDialogActions-root .MuiButton-root:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-contact-dialog .MuiDialogActions-root .MuiButton-root:last-of-type:hover {
+    background-color: #d32f2f;
+}
